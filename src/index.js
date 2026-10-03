@@ -1,4 +1,7 @@
 import { toDateTime } from './toDateTime'
+import { toDuration } from './toDuration'
 
-export { toDateTime }
-export default toDateTime
+export {
+    toDateTime,
+    toDuration
+}
