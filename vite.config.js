@@ -8,7 +8,6 @@ export default defineConfig({
     build: {
         lib: {
             entry: 'src/index.js',
-            name: 'date-time',
             formats: ['es']
         },
         rollupOptions: {
